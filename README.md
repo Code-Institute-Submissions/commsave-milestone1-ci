@@ -240,7 +240,7 @@ CSS Framework and section templates [Bootstrap](https://getbootstrap.com/docs/5.
 
 CSS & HTML [W3Schools](https://www.w3schools.com/)
 
-Framework Tutorial [Traversy Media](https://youtu.be/4sosXZsdy-s)
+Framework Tutorial and basic initial structure including management cards [Traversy Media](https://youtu.be/4sosXZsdy-s) and code here [GitHub](https://github.com/bradtraversy/bootstrap-bootcamp-website)
 
 ### Disclaimer
 The content of this website is for educational purposes only and is based a previous company i owned in 2008 that has since ceased trading.
