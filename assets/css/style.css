@@ -161,7 +161,7 @@ img {
 
 /* CONTACT DETAILS - CONTACT PAGE */
 .bg-map {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/contact-map.webp');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/contact-map.webp');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -169,26 +169,3 @@ img {
   background-attachment: fixed;
 }
 
-/* LINKS */
-/*
-a:link { 
-  text-decoration: none; 
-}
-
-
-a:visited { 
-  text-decoration: none; 
-}
-
-
-a:hover { 
-  text-decoration: none; 
-}
-
-a:active { 
-  text-decoration: none; 
-} */
-
-.fa {
-  text-decoration: none;
-}
