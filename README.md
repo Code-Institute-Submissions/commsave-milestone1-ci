@@ -228,15 +228,6 @@ Explainer Video - [Biteable.com](https://biteable.com)
 - JAVASCRIPT
 - BOOTSTRAP 5.0
 
-# Testing
-
-HTML - [W3C Markup Validation Service](https://validator.w3.org/) 
-- Document checking completed. No errors or warnings to show.
-
-CSS - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-
-Accessibility, SEO & Performance - [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
-
 # Credits
 
 ## Website Images
