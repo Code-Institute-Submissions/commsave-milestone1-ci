@@ -39,10 +39,10 @@ The user goals of this website are:
 
 ## User Stories
 
-1. As a new user / potential customer i want to be able to quickly undertand what type of business CommSave is and what service they offer.
+1. As a new user / potential customer i want to be able to quickly understand what type of business CommSave is and what service they offer.
 2. As a new user / potential customer i want to understand how to work with CommSave and what steps i need to take to become a customer.
 3. As a new user / potential customer i want to know what problems like minded customers are facing in their business.
-4. As a new user / potential customer i want to undertand why other customers use CommSave's service.
+4. As a new user / potential customer i want to understand why other customers use CommSave's service.
 5. As a new user / potential customer i want to know how to contact CommSave.
 6. As a new user / potential customer i want to learn further information abou who the management team are.
 7. As a new user / potential customer i want to be able to schedule a sales call/meeting.
