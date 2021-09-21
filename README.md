@@ -175,7 +175,8 @@ HTML - [W3C Markup Validation Service](https://validator.w3.org/)
 
 ## Accessibility / SEO / Performance
 Google lightouse was used to test for accessibility / seo /performance.
-![Google Lighthouse]()
+
+![Google Lighthouse](assets/readme-images/lighthouse-readme.png)
 
 # Deployment
 
