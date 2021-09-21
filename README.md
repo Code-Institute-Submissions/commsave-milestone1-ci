@@ -1,108 +1,264 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# CommSave
 
-Welcome r3b3l-dev,
+![CommSave Logo](assets/images/cs-logo.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[You can view the live site here]()
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# Project Overview
 
-## Gitpod Reminders
+CommSave is a business website for an independant business telecoms consultancy. They offer companies a free and independant assessment of their communication requirements by examining their contracts,invoices and tarriffs to find ways of saving them money.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Project Goals
 
-`python3 -m http.server`
+The primary goal of the website is to act as a sales tool for prospective customers and to get  them to take action by requesting a meeting or phone conversation via the contact page of the site.
 
-A blue button should appear to click: _Make Public_,
+## Business Goals
 
-Another blue button should appear to click: _Open Browser_.
+The business goals of this website are:
+- Act as a sales tool for prospective customers.
+- Quickly articulate the services on offer.
+- Answer high level questions about the services CommSave offer.
+- Fill the funnel with net-new sales leads by getting the prospect to submit a contact form.
+- Clean design with simple repetitive messaging to answe questions and build trust.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# User Experience
 
-A blue button should appear to click: _Make Public_,
+## User Goals
 
-Another blue button should appear to click: _Open Browser_.
+The user goals of this website are:
+- To understand who CommSave are and what services they provide.
+- To quickly see how the service will benefit the users business.
+- To answer the question "How do i get this service?"
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Target Audience
 
-To log into the Heroku toolbelt CLI:
+- Small to medium size business in Ireland.
+- Cutomers who do not have the expertise to audit complex billing scenarios.
+- Customers who are performing a cost saving excercise / audit on overall costs.
+- New Directors, Owners, Managers who are in a new role and wish to quickly assess their communications landscape. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## User Stories
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+1. As a new user / potential customer i want to be able to quickly undertand what type of business CommSave is and what service they offer.
+2. As a new user / potential customer i want to understand how to work with CommSave and what steps i need to take to become a customer.
+3. As a new user / potential customer i want to know what problems like minded customers are facing in their business.
+4. As a new user / potential customer i want to undertand why other customers use CommSave's service.
+5. As a new user / potential customer i want to know how to contact CommSave.
+6. As a new user / potential customer i want to learn further information abou who the management team are.
+7. As a new user / potential customer i want to be able to schedule a sales call/meeting.
 
-------
+## Wireframe Mockups
+- [Home](assets/readme-images/wireframe-home.png)
+- [About](assets/readme-images/wireframe-about.png)
+- [Contact](assets/readme-images/wireframe-contact.png)
 
-## Release History
+# Website Features
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The website is designed to quickly convey information and tell the **story** of CommSave. the main focus of the website is the long scroll page with multiple horizontal **blocked sections.** Each page features a responsive **navigation bar** with conventional placing of **logo** (top left) and a highlighted "Let's talk" call to action button in the top right. This features on every page.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Responsive Screenshot]()
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Home Page
+---
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Logo & Navigation
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Navigation Screenshot](assets/readme-images/nav-readme.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- The navigation header is situated at the top of the page showing the company logo on the left which links to the homepage from all other pages.
+- The navigation bar features three links: Home, About and Contact.
+- The Call to Action button matchs the color of the brand and stands out against the white background. It is designed to make the user take action and has the text of "Talk Now" which features on all of the sites call to action buttons.
+---
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## The Hero Section
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Hero Screenshot](assets/readme-images/hero-readme.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- The headline and sub-headline section of the home section is specific and concise 
+- The call to action button which features throughout uses the same styling and colour.
+---
+## 3 Step Process
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![How To work with Us Section](assets/readme-images/workwithus-readme.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- A visual 3 step process that helps the user understand how to work with CommSave. Helps the customer understand what steps need to be taken to become a customer.
 
-------
+---
+## The Value Stack Section
 
-## FAQ about the uptime script
+![Value Stack Section](assets/readme-images/valuestack-readme.png)
 
-**Why have you added this script?**
+- This section gives a visual indication of 4 major business benefits for potential customers. 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+---
+## Problem
 
-**How will this affect me?**
+![Problem Section](assets/readme-images/problem-readme.png)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- This section quickly articulates the problems that a business faces when managing telecoms in house and then tells them how commSave can solve the problem.
+- The image is visually striking in keeping with the brand and contrasts against the white background.
+- The Call to Action button is placed underneath with a view to getting the user to take action after reading this section.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+---
+## Solution
 
-**So….?**
+![Case Study Section](assets/readme-images/solution-readme.png)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- The solution sudy section gives the user a quick overview of how CommSave can help address the problems they face.
+- The image is positive and reinforces the messaging of solving a problem.
 
 ---
 
-Happy coding!
+## Why Us
+
+![Why Us Section](assets/readme-images/whyus-readme.png)
+
+- This section reinforces the value of doing business with commSave and highlights the key benefits and core values of commSave
+---
+## Footer
+
+![Footer](assets/readme-images/footer-readme.png)
+- Each page has a footer with contact information and social media icons linking to the companies social media accounts. 
+- There is a description of the company and quick links to all pages.Contact information is also included.
+
+---
+## Explainer Video
+
+![Explainer](assets/readme-images/explainer-readme.png)
+- A company branded explainer video that can be used to highlight importnat info on both the team and company.
+---
+
+## Management Section
+
+![Management Section](assets/readme-images/management-readme.png)
+- This section gives an introduction and contact information for each of the management team.
+---
+
+## Form
+
+![Form Section](assets/readme-images/form-readme.png)
+- All of the CTA Talk Now buttons route to the contact page which includes this form. This form allows the user to submit their contact information in order to schedule a call.
+---
+
+# Testing
+
+## Responsive
+
+Responise testing for the website was completed using developer tools for sm, medium , large and xxl screen sizes.
+
+## Links
+
+All links were tested. External link opens in new page and internal links route to correct section / page.
+
+## Form
+
+The form was tested for the following;
+- Requires an input on all fields marked as required.
+- Email format is required for email input filed otherwise form will not submit. (Modal pop-up informs user)
+- Submission works correctly. Modal needed as future feature.
+
+## CSS
+
+CSS - [W3C Markup Validation Service](https://validator.w3.org/) 
+- Congratultations! No Error Found.
+![W3C Markup Validation Service](assets/readme-images/cssvalidation-readme.png)
+
+## HTML
+HTML - [W3C Markup Validation Service](https://validator.w3.org/) 
+- Document checking completed. No errors or warnings to show.
+![W3C Markup Validation Service](assets/readme-images/htmlvalidation-readme.png)
+
+## Accessibility / SEO / Performance
+Google lightouse was used to test for accessibility / seo /performance.
+![Google Lighthouse]()
+
+# Deployment
+
+The project was deployed to github pages using the following steps;
+  
+  1. Once logged in to **Github**, navigate to the sites repository.
+  2. Under repository name , click **Settings**.
+  3. In the left sidebar, click **Pages** or scroll down to **Pages** section.
+  4. Under Source, select **Master Branch** and hit **Save**.
+  5. To see your published site, under **Github Pages**, click the sites url.
+
+
+# Technologies Used
+## Code Repository, Writing and Version Control
+- GITPOD
+- GITHUB 
+- GIT
+
+## Software
+Favicon - [favicon.io](https://favicon.io/)
+
+Logo - [Canva](https://canva.com)
+
+File Format Conversion - [convertico.co](https://convertio.co/)
+
+Wireframes - [Balsamiq](https://balsamiq.com/)
+
+Images Resizing - [resizeimage.net](https://resizeimage.net/)
+
+Fonts - [Google Fonts](https://fonts.google.com/)
+
+Icons - [Font Awesome](https://fontawesome.com/)
+
+Team Member Pictures - [Random User Generator](https://randomuser.me/)
+
+Responive Screenshots - [Am I Responsive](http://ami.responsivedesign.is/)
+
+Explainer Video - [Biteable.com](https://biteable.com)
+
+## Framework and Languages
+
+- HTML
+- CSS
+- JAVASCRIPT
+- BOOTSTRAP 5.0
+
+# Testing
+
+HTML - [W3C Markup Validation Service](https://validator.w3.org/) 
+- Document checking completed. No errors or warnings to show.
+
+CSS - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+Accessibility, SEO & Performance - [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+# Credits
+
+## Website Images
+
+Photo by [Fauxels](https://www.pexels.com/@fauxels?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) on [Pexels](https://www.pexels.com/photo/photo-of-people-doing-handshakes-3183197/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
+Photo by [Icons8 Team](https://unsplash.com/@icons8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Photo by [Kraken Images](https://unsplash.com/@krakenimages?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/business-meeting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Photo by [Luis Villasmil](https://unsplash.com/@luisviol?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+
+# Acknowledgements
+
+Code reference for this project is from;
+
+CSS Framework [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+
+CSS & HTML [W3Schools](https://www.w3schools.com/)
+
+Framework Tutorial [Traversy Media](https://youtu.be/4sosXZsdy-s)
+
+### Disclaimer
+The content of this website is for educational purposes only.
+
+
+
+
+
+
