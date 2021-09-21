@@ -47,6 +47,15 @@ li {
   border-radius: 15px 15px 0px 15px;
 }
 
+.btn {
+  font-family: 'Lato', sans-serif;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #0d6efd;
+}
+
 /* IMAGES */
 
 img {
@@ -82,15 +91,6 @@ img {
 
 .hero-text {
   line-height: 1;
-}
-
-.btn {
-  font-family: 'Lato', sans-serif;
-}
-
-.btn:hover {
-  background-color: white;
-  color: #0d6efd;
 }
 
 /* VALUE STACK SECTION - HOME PAGE */
@@ -170,6 +170,7 @@ img {
 }
 
 /* CONTACT DETAILS - CONTACT PAGE */
+
 .bg-map {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/contact-map.webp');
   background-size: cover;
@@ -178,4 +179,3 @@ img {
   position: relative;
   background-attachment: fixed;
 }
-
