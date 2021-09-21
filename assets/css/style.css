@@ -4,6 +4,11 @@ body{
     overflow-x: hidden;
 }
 
+row, container {
+  margin: 0;
+  padding: 0;
+}
+
 /* FONT & TEXT */
 
 h1 {
@@ -81,7 +86,7 @@ img {
 /* VALUE STACK SECTION - HOME PAGE */
 
 .valuestack-bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/images/value-stack.webp');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/value-stack.webp');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -156,7 +161,7 @@ img {
 
 /* CONTACT DETAILS - CONTACT PAGE */
 .bg-map {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/contact-map.webp');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/contact-map.webp');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -165,7 +170,7 @@ img {
 }
 
 /* LINKS */
-
+/*
 a:link { 
   text-decoration: none; 
 }
@@ -182,4 +187,8 @@ a:hover {
 
 a:active { 
   text-decoration: none; 
+} */
+
+.fa {
+  text-decoration: none;
 }
