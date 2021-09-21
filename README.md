@@ -165,12 +165,17 @@ The form was tested for the following;
 ## CSS
 
 CSS - [W3C Markup Validation Service](https://validator.w3.org/) 
+
 - Congratultations! No Error Found.
+
 ![W3C Markup Validation Service](assets/readme-images/cssvalidation-readme.png)
+
 
 ## HTML
 HTML - [W3C Markup Validation Service](https://validator.w3.org/) 
+
 - Document checking completed. No errors or warnings to show.
+
 ![W3C Markup Validation Service](assets/readme-images/htmlvalidation-readme.png)
 
 ## Accessibility / SEO / Performance
