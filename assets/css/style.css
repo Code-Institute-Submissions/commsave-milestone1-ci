@@ -161,7 +161,7 @@ img {
 
 /* CONTACT DETAILS - CONTACT PAGE */
 .bg-map {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/images/contact-map.webp');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/contact-map.webp');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
