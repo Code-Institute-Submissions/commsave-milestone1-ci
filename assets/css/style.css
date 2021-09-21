@@ -1,21 +1,180 @@
-/* CONTACT DETAILS - CONTACT PAGE */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
 
-.bg-map {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/contact-map.webp');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    background-attachment: fixed;
+body{
+    overflow-x: hidden;
+}
+
+/* FONT & TEXT */
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5em;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5em;
+  line-height: 1;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+li {
+  font-family: 'Lato', sans-serif;
+}
+
+/* BUTTONS */
+
+.btn {
+  border-radius: 15px 15px 0px 15px;
+}
+
+/* IMAGES */
+
+img {
+  border-radius: 15px 15px 0px 15px;
+}
+
+/* NAV - HEADER */
+
+.navbar-brand {
+  height: 40px;
+  width: 190px;
+}
+.nav-link{
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+.navbar-toggler{
+  border: none;
+  color: black;
+}
+
+/* HERO */
+.hero-text {
+  line-height: 1;
+}
+
+.btn {
+  font-family: 'Lato', sans-serif;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #0d6efd;
 }
 
 /* VALUE STACK SECTION - HOME PAGE */
 
 .valuestack-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/value-stack.webp');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/css/images/value-stack.webp');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+}
+
+/* WHY US SECTION - HOME PAGE */
+
+.why-us-list {
+  list-style: none;
+}
+
+.fa-check-circle {
+  color: green;
+}
+
+/* FOOTER & ICONS- */
+
+.button-footer {
+  border-radius: 0px 5px 0px 0px;
+}
+
+.newsletter-input {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.fa-facebook {
+  color: black;
+  font-size: 1.5em;
+}
+
+.fa-twitter {
+  color: black;
+  font-size: 1.5em;
+}
+
+.fa-linkedin {
+  color: black;
+  font-size: 1.5em;
+}
+
+.fa-home {
+  color: black;
+}
+
+.fa-envelope {
+  color: black;
+}
+
+.fa-phone {
+  color: black;
+}
+
+.fa-building {
+  font-size: 2em;
+}
+
+.fa-envelope-open {
+  font-size: 2em;
+}
+
+.fa-phone-alt {
+  font-size: 2em;
+}
+
+/* MANAGEMENT SECTION - ABOUT PAGE */
+
+.management-card {
+  border-radius: 15px 15px 0px 15px;
+}
+
+/* CONTACT DETAILS - CONTACT PAGE */
+.bg-map {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/css/images/contact-map.webp');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+}
+
+/* LINKS */
+
+a:link {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: #0d6efd;
+}
+
+.nav-link {
+  color: black;
 }
