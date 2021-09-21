@@ -2,7 +2,7 @@
 
 ![CommSave Logo](assets/images/cs-logo.png)
 
-[You can view the live site here]()
+[You can view the live site here](https://r3b3l-dev.github.io/commsave-milestone1-ci/index.html)
 
 # Project Overview
 
