@@ -62,7 +62,7 @@ The website is designed to quickly convey information and tell the **story** of 
 
 
 ## Home Page
----
+
 
 ## Logo & Navigation
 
@@ -72,7 +72,7 @@ The website is designed to quickly convey information and tell the **story** of 
 - The navigation header is situated at the top of the page showing the company logo on the left which links to the homepage from all other pages.
 - The navigation bar features three links: Home, About and Contact.
 - The Call to Action button matchs the color of the brand and stands out against the white background. It is designed to make the user take action and has the text of "Talk Now" which features on all of the sites call to action buttons.
----
+
 
 ## The Hero Section
 
@@ -80,21 +80,21 @@ The website is designed to quickly convey information and tell the **story** of 
 
 - The headline and sub-headline section of the home section is specific and concise 
 - The call to action button which features throughout uses the same styling and colour.
----
+
 ## 3 Step Process
 
 ![How To work with Us Section](assets/readme-images/workwithus-readme.png)
 
 - A visual 3 step process that helps the user understand how to work with CommSave. Helps the customer understand what steps need to be taken to become a customer.
 
----
+
 ## The Value Stack Section
 
 ![Value Stack Section](assets/readme-images/valuestack-readme.png)
 
 - This section gives a visual indication of 4 major business benefits for potential customers. 
 
----
+
 ## Problem
 
 ![Problem Section](assets/readme-images/problem-readme.png)
@@ -104,7 +104,7 @@ The website is designed to quickly convey information and tell the **story** of 
 - The image is visually striking in keeping with the brand and contrasts against the white background.
 - The Call to Action button is placed underneath with a view to getting the user to take action after reading this section.
 
----
+
 ## Solution
 
 ![Case Study Section](assets/readme-images/solution-readme.png)
@@ -112,38 +112,38 @@ The website is designed to quickly convey information and tell the **story** of 
 - The solution sudy section gives the user a quick overview of how CommSave can help address the problems they face.
 - The image is positive and reinforces the messaging of solving a problem.
 
----
+
 
 ## Why Us
 
 ![Why Us Section](assets/readme-images/whyus-readme.png)
 
 - This section reinforces the value of doing business with commSave and highlights the key benefits and core values of commSave
----
+
 ## Footer
 
 ![Footer](assets/readme-images/footer-readme.png)
 - Each page has a footer with contact information and social media icons linking to the companies social media accounts. 
 - There is a description of the company and quick links to all pages.Contact information is also included.
 
----
+
 ## Explainer Video
 
 ![Explainer](assets/readme-images/explainer-readme.png)
 - A company branded explainer video that can be used to highlight importnat info on both the team and company.
----
+
 
 ## Management Section
 
 ![Management Section](assets/readme-images/management-readme.png)
 - This section gives an introduction and contact information for each of the management team.
----
+
 
 ## Form
 
 ![Form Section](assets/readme-images/form-readme.png)
 - All of the CTA Talk Now buttons route to the contact page which includes this form. This form allows the user to submit their contact information in order to schedule a call.
----
+
 
 # Testing
 
