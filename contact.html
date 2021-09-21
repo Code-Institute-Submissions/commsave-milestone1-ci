@@ -82,6 +82,52 @@
         </div>
     </section>
     <!-- FORM -->
+    <div class="form">
+        <div class="container pb-5 pt-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-6 container-form">
+                    <form action="#" method="GET">
+                    <div class="mb-3">
+                        <label for="fname" class="form-label">Your Name *</label>
+                        <input type="text" id="fname"  name="firstname" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address *</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="company" class="form-label">Company Name *</label>
+                        <input type="text" id="company"  name="companyname" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number *</label>
+                        <input type="text" id="phone"  name="companyname" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="options" class="form-label">What's the best time to speak with you?</label>
+                        <select id="options"  name="options" class="form-control">
+                        <option value="select an option" selected>-</option>
+                        <option value="Schedule a phone call">Morning</option>
+                        <option value="Schedule a meeting">Afternoon</option>
+                        <option value="Other/General">Evening</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label form-label-textarea">Message (Optional)</label>
+                        <textarea rows=5 id="subject"  name="Message" class="form-control" ></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <span>*Required</span>
+                    </div>
+                    <div class="d-grid col-6 mx-auto">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </div>
     <!-- FOOTER -->
     <footer class="footer pt-5">
         <div class="container">

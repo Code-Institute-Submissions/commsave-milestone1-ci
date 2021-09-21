@@ -1,5 +1,12 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+/* CONTACT DETAILS - CONTACT PAGE */
+
+.bg-map {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/contact-map.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
 }
 
 /* VALUE STACK SECTION - HOME PAGE */
@@ -11,4 +18,4 @@ body {
     background-repeat: no-repeat;
     position: relative;
     background-attachment: fixed;
-  }
+}
