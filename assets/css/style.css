@@ -86,7 +86,7 @@ img {
 /* VALUE STACK SECTION - HOME PAGE */
 
 .valuestack-bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/images/value-stack.webp');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('commsave-milestone1-ci/assets/images/value-stack.webp');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
