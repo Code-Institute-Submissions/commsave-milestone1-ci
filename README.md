@@ -58,7 +58,7 @@ The website is designed to quickly convey information and tell the **story** of 
 
 
 
-![Responsive Screenshot]()
+![Responsive Screenshot](assets/readme-images/responsive-readme.png)
 
 
 ## Home Page
